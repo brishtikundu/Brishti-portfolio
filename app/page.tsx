@@ -410,12 +410,14 @@ export default function Home() {
                 <span>→</span>
               </a>
 
-              <a href="/resume.pdf" download className="outline-btn">
-                Download Resume
-                <span>↓</span>
-              </a>
-            </div>
-          </div>
+              <a
+  href="/Brishti-portfolio/resume.pdf"
+  download
+  className="outline-btn"
+>
+  Download Resume
+  <span>↓</span>
+</a>
 
           {/* RIGHT PHOTO */}
 
@@ -426,8 +428,11 @@ export default function Home() {
             <div className="orbit orbit-two"></div>
 
            <div className="photo">
-             <img src="/Brishti-portfolio/profile.jpg" alt="Brishti Kundu" />
-           </div>
+  <img
+    src="/Brishti-portfolio/profile.jpg"
+    alt="Brishti Kundu"
+  />
+</div>
 
             {/* AWS CARD */}
 
