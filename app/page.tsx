@@ -685,7 +685,7 @@ export default function Home() {
 
               <div className="exp-title">
                 <h3>AWS &amp; DevOps Trainee</h3>
-                <h4>Technical Hub Pvt Ltd</h4>
+                <h4>Technical Hub Pvt Ltd.</h4>
               </div>
 
               <div className="exp-date">MAY 2025 — JUNE 2026</div>
@@ -770,7 +770,6 @@ export default function Home() {
 
       <section id="certificates" className="section certifications">
         <div className="section-title center">
-          <p className="skills-eyebrow">LICENSES &amp; CERTIFICATIONS</p>
           <h2>Certificates.</h2>
         </div>
 
