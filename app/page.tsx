@@ -425,9 +425,9 @@ export default function Home() {
             <div className="orbit orbit-one"></div>
             <div className="orbit orbit-two"></div>
 
-            <div className="photo">
-              <img src="/profile.jpg" alt="Brishti Kundu" />
-            </div>
+           <div className="photo">
+             <img src="/Brishti-portfolio/profile.jpg" alt="Brishti Kundu" />
+           </div>
 
             {/* AWS CARD */}
 
