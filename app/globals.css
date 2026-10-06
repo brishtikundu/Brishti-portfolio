@@ -333,68 +333,32 @@ main {
 
 .photo {
   position: relative;
+
   z-index: 3;
+
   width: 390px;
   height: 500px;
+
   border-radius: 50%;
+
   overflow: hidden;
+
   border: 2px solid rgba(19, 220, 233, 0.7);
 
   box-shadow:
     0 0 50px rgba(19, 220, 233, 0.16),
     inset 0 0 50px rgba(19, 220, 233, 0.08);
-
-  transition:
-    transform 0.4s ease,
-    box-shadow 0.4s ease,
-    border-color 0.4s ease;
 }
 
 .photo img {
   width: 100%;
   height: 100%;
+
   object-fit: cover;
+
   object-position: center top;
-
-  transition:
-    transform 0.5s ease,
-    filter 0.5s ease;
 }
 
-/* PHOTO HOVER */
-
-.photo:hover {
-  transform: translateY(-8px) scale(1.02);
-
-  border-color: rgba(19, 220, 233, 1);
-
-  box-shadow:
-    0 0 35px rgba(19, 220, 233, 0.4),
-    0 0 80px rgba(19, 220, 233, 0.2),
-    inset 0 0 50px rgba(19, 220, 233, 0.12);
-}
-
-.photo:hover img {
-  transform: scale(1.06);
-  filter: brightness(1.08);
-}
-
-/* Hover border */
-
-.photo::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  border: 1px solid rgba(85, 230, 255, 0.25);
-  pointer-events: none;
-
-  transition: border-color 0.4s ease;
-}
-
-.photo:hover::after {
-  border-color: rgba(85, 230, 255, 0.8);
-}
 .orbit {
   position: absolute;
 
@@ -2038,4 +2002,38 @@ footer {
 /* move the BRISHTI KUNDU logo to the left */
 .brand {
   margin-left: -120px;
+}
+/* ================= HERO DECORATION HOVER ================= */
+
+.hero-right .orbit,
+.hero-right .glow,
+.hero-right .dot-pattern {
+  transition:
+    border-color 0.4s ease,
+    background 0.4s ease,
+    box-shadow 0.4s ease,
+    opacity 0.4s ease,
+    filter 0.4s ease;
+}
+
+.hero-right:has(.photo:hover) .orbit {
+  border-color: rgba(85, 230, 255, 0.85);
+  box-shadow:
+    0 0 15px rgba(19, 220, 233, 0.35),
+    0 0 35px rgba(85, 120, 255, 0.2);
+}
+
+.hero-right:has(.photo:hover) .glow {
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+.hero-right:has(.photo:hover) .dot-pattern {
+  opacity: 1;
+  filter: brightness(1.35);
+}
+
+.hero-right:has(.photo:hover) .floating-card {
+  border-color: rgba(85, 230, 255, 0.5);
+  box-shadow: 0 0 20px rgba(19, 220, 233, 0.18);
 }
