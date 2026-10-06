@@ -369,100 +369,104 @@ export default function Home() {
 
       {/* ================= HERO ================= */}
 
-      <section id="home" className="hero">
-        <div className="hero-wrapper">
-          {/* LEFT */}
+      {/* ================= HERO ================= */}
 
-          <div className="hero-left">
-            <div className="available">
-              <span></span>
-              AVAILABLE FOR OPPORTUNITIES
-            </div>
+<section id="home" className="hero">
+  <div className="hero-wrapper">
 
-            <p className="intro">Hello, I&apos;m</p>
+    {/* LEFT */}
 
-            <h1>
-              BRISHTI
-              <strong>KUNDU</strong>
-            </h1>
+    <div className="hero-left">
+      <div className="available">
+        <span></span>
+        AVAILABLE FOR OPPORTUNITIES
+      </div>
 
-            <div className="hero-role">
-              Computer Science Engineering Student
-            </div>
+      <p className="intro">Hello, I&apos;m</p>
 
-            <div className="role-line">
-              <span>Software Developer</span>
-              <b>•</b>
-              <span>DevOps Enthusiast</span>
-              <b>•</b>
-              <span>AI / LLM Explorer</span>
-            </div>
+      <h1>
+        BRISHTI
+        <strong>KUNDU</strong>
+      </h1>
 
-            <p className="hero-text">
-              I build reliable software, cloud infrastructure and
-              AI-powered applications. Passionate about turning ideas
-              into practical technology solutions.
-            </p>
+      <div className="hero-role">
+        Computer Science Engineering Student
+      </div>
 
-            <div className="hero-actions">
-              <a href="#projects" className="main-btn">
-                View My Work
-                <span>→</span>
-              </a>
+      <div className="role-line">
+        <span>Software Developer</span>
+        <b>•</b>
+        <span>DevOps Enthusiast</span>
+        <b>•</b>
+        <span>AI / LLM Explorer</span>
+      </div>
 
-              <a
-  href="/Brishti-portfolio/resume.pdf"
-  download
-  className="outline-btn"
->
-  Download Resume
-  <span>↓</span>
-</a>
+      <p className="hero-text">
+        I build reliable software, cloud infrastructure and
+        AI-powered applications. Passionate about turning ideas
+        into practical technology solutions.
+      </p>
 
-          {/* RIGHT PHOTO */}
+      <div className="hero-actions">
+        <a href="#projects" className="main-btn">
+          View My Work
+          <span>→</span>
+        </a>
 
-          <div className="hero-right">
-            <div className="glow"></div>
+        <a
+          href="/Brishti-portfolio/resume.pdf"
+          download
+          className="outline-btn"
+        >
+          Download Resume
+          <span>↓</span>
+        </a>
+      </div>
+    </div>
 
-            <div className="orbit orbit-one"></div>
-            <div className="orbit orbit-two"></div>
+    {/* RIGHT PHOTO */}
 
-           <div className="photo">
-  <img
-    src="/Brishti-portfolio/profile.jpg"
-    alt="Brishti Kundu"
-  />
-</div>
+    <div className="hero-right">
+      <div className="glow"></div>
 
-            {/* AWS CARD */}
+      <div className="orbit orbit-one"></div>
+      <div className="orbit orbit-two"></div>
 
-            <div className="floating-card aws-card">
-              <div className="card-icon">☁</div>
+      <div className="photo">
+        <img
+          src="/Brishti-portfolio/profile.jpg"
+          alt="Brishti Kundu"
+        />
+      </div>
 
-              <div>
-                <small>FOCUS</small>
-                <h3>AWS + DevOps</h3>
-              </div>
-            </div>
+      {/* AWS CARD */}
 
-            {/* EDUCATION CARD */}
+      <div className="floating-card aws-card">
+        <div className="card-icon">☁</div>
 
-            <div className="floating-card edu-card">
-              <div className="card-icon">🎓</div>
-
-              <div>
-                <small>EDUCATION</small>
-                <h3>B.Tech CSE</h3>
-                <p>Aditya Engineering College</p>
-              </div>
-            </div>
-
-            <div className="dot-pattern"></div>
-
-          </div>
+        <div>
+          <small>FOCUS</small>
+          <h3>AWS + DevOps</h3>
         </div>
-      </section>
+      </div>
 
+      {/* EDUCATION CARD */}
+
+      <div className="floating-card edu-card">
+        <div className="card-icon">🎓</div>
+
+        <div>
+          <small>EDUCATION</small>
+          <h3>B.Tech CSE</h3>
+          <p>Aditya Engineering College</p>
+        </div>
+      </div>
+
+      <div className="dot-pattern"></div>
+    </div>
+
+  </div>
+</section>
       {/* ================= ABOUT ================= */}
 
       <section id="about" className="section about">
